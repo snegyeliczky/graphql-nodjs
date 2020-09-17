@@ -10,7 +10,7 @@ const BookDetails = (bookId) => {
     });
 
     function displayBookDetails() {
-        if (loading) return <option>Loding author</option>;
+        if (loading) return <div>Loding books</div>;
 
         if (data.book != null) {
             return (
